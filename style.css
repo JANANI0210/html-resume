@@ -242,12 +242,28 @@ button:active {
   background-color: rgb(165, 239, 246);
   padding: 2% 10% 0px 10%;
 }
-.education-text p:nth-child(1) {
+.project-text p:nth-child(1) {
   font-family: calibri;
   color: rgb(16, 22, 22);
   font-weight: bold;
   font-size: 30px;
   line-height: 0px;
+}
+
+.project-text p:nth-child(2) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 5px;
+}
+.project-text p:nth-child(3) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+}
+.project-text {
+  width: 500px;
+  margin: 50px 0px;
 }
 .pbox-1 {
   width: 300px;
@@ -274,6 +290,35 @@ button:active {
   align-items: center;
   font-family: calibri;
   font-weight: bold;
+}
+
+.pbox-1 p:nth-child(2),
+.pbox-1 p:nth-child(2),
+.pbox-1 p:nth-child(2) {
+  color: #121515;
+  font-family: calibri;
+  font-size: 23px;
+  line-height: 0px;
+}
+.pbox-1 p:nth-child(3),
+.pbox-1 p:nth-child(3),
+.pbox-1 p:nth-child(3) {
+  font-family: calibri;
+  text-align: center;
+  width: 230px;
+  margin: 0px 0px 20px 0px;
+  color: #414343;
+}
+.pbox-1 button,
+.pbox-2 button,
+.pbox-3 button {
+  width: 100px;
+  height: 30px;
+  background-color: #05e1d6;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  align-items: center;
 }
 footer {
   height: 300px;
