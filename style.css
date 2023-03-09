@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* this is a css file */
+/* home section */
 body {
   margin: 0px;
   padding: 0px;
@@ -101,6 +102,7 @@ button:active {
   left: 70%;
   transform: translateX(-70);
 }
+/* about section */
 .about-container {
   width: 80%;
   height: 330px;
@@ -110,4 +112,43 @@ button:active {
   display: flex;
   margin: -7% auto 20px auto;
   position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container img {
+  height: 300px;
+}
+.about-text {
+  width: 750px;
+}
+.about-text p:nth-child(1) {
+  color: #103e45;
+  font-family: Gill Sans;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0px;
+}
+.about-text p:nth-child(2) {
+  color: #147180;
+  font-family: Segoe Scripta;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 5px;
+}
+.about-text p:nth-child(3),
+.aboout-text p:nth-child(4) {
+  color: #013138;
+  font-family: calibri;
+  font-size: 16px;
+}
+.about-text button {
+  width: 120px;
+  height: 40px;
+  color: #05e1d6;
+  outline: none;
+  border: none;
+  font-family: calibri;
+  background-color: #103e45;
+  font-weight: bold;
+  margin: 0px 10px;
 }
