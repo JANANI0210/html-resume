@@ -1,1 +1,113 @@
-/* this is css file  */
+@charset "utf-8";
+/* this is a css file */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  width: 100%;
+  height: 95vh;
+  background-image: url("img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  font-family: Segoe Script;
+  color: #103e45;
+  font-size: 15px;
+  font-weight: 700;
+}
+.logo {
+  font-family: myriad pro regular;
+  color: black;
+  font-size: 22px;
+}
+.active {
+  font-weight: bold;
+  color: aqua;
+}
+.text-container p:nth-child(1) {
+  font-family: Gill Sans;
+  font-weight: bold;
+  color: rgb(23, 34, 44);
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(3, 14, 24);
+  font-size: 65px;
+}
+.text-container p:nth-child(3) {
+  font-family: Segoe Scripta;
+  letter-spacing: 1px;
+  color: rgb(3, 14, 24);
+  font-size: 30px;
+  line-height: 30px;
+}
+.text-container p {
+  line-height: 0px;
+  margin: 45px 0px 25px;
+}
+.text-container {
+  position: absolute;
+  left: 15%;
+  top: 45%;
+  transform: translate(-15%, -45%);
+}
+.text-container button {
+  width: 130px;
+  height: 45px;
+  border-radius: 10px;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+}
+.cv-button {
+  background-color: black;
+  color: #05e1d6;
+  border: none;
+}
+button:active {
+  transform: scale(1.1);
+}
+.photo {
+  height: 560px;
+  position: absolute;
+  bottom: 40px;
+  left: 70%;
+  transform: translateX(-70);
+}
+.about-container {
+  width: 80%;
+  height: 330px;
+  background-color: rgb(165, 239, 246);
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: -7% auto 20px auto;
+  position: relative;
+}
