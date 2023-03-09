@@ -275,3 +275,44 @@ button:active {
   font-family: calibri;
   font-weight: bold;
 }
+footer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8acac;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+.social-icons {
+  display: flex;
+}
+.copyright {
+  color: #95f0e0;
+  font-size: 13px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.social-icons i {
+  color: #000;
+}
+.social-icons a:hover {
+  background-color: #858383;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.5;
+}
+.social-icons a:hover i {
+  color: #ffffff;
+  transition: all ease 0.5s;
+}
