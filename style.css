@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* this is a css file */
-/* home section */
+/* home sectionit */
 body {
   margin: 0px;
   padding: 0px;
@@ -151,4 +151,127 @@ button:active {
   background-color: #103e45;
   font-weight: bold;
   margin: 0px 10px;
+}
+/* education section */
+.education {
+  height: 600px;
+  background-color: rgb(165, 239, 246);
+  padding: 2% 10% 0px 10%;
+}
+.education-text p:nth-child(1) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 0px;
+}
+.education-text p:nth-child(2) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 5px;
+}
+.education-text p:nth-child(3) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+}
+.education-text {
+  width: 500px;
+  margin: 50px 0px;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.box-1 span,
+.box-2 span,
+.box-3 span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #147180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  font-weight: bold;
+}
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2) {
+  color: #121515;
+  font-family: calibri;
+  font-size: 23px;
+  line-height: 0px;
+}
+.box-1 p:nth-child(3),
+.box-1 p:nth-child(3),
+.box-1 p:nth-child(3) {
+  font-family: calibri;
+  text-align: center;
+  width: 230px;
+  margin: 0px 0px 20px 0px;
+  color: #414343;
+}
+.box-1 button,
+.box-2 button,
+.box-3 button {
+  width: 100px;
+  height: 30px;
+  background-color: #05e1d6;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.projects {
+  height: 600px;
+  background-color: rgb(165, 239, 246);
+  padding: 2% 10% 0px 10%;
+}
+.education-text p:nth-child(1) {
+  font-family: calibri;
+  color: rgb(16, 22, 22);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 0px;
+}
+.pbox-1 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pbox-1 span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #147180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  font-weight: bold;
 }
